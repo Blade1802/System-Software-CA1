@@ -1,0 +1,12 @@
+[Unit]
+Description=Software System Daemon
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/home/aayush/Desktop/System-Software-CA-1/Assignment1/daemon
+ExecStop=/bin/kill -SIGTERM $MAINPID
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

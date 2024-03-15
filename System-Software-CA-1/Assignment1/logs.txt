@@ -1,0 +1,57 @@
+__________________generate_reports____________________
+SUCCESS. Warehouse Report created successfully
+___________________________________________
+__________________generate_reports____________________
+SUCCESS. Manufacturing Report created successfully
+___________________________________________
+__________________generate_reports____________________
+SUCCESS. Sales Report created successfully
+___________________________________________
+__________________daemon____________________
+Daemon is running.
+__________________daemon____________________
+Daemon is running.
+Daemon Step 1 complete.
+Daemon Step 2 complete.
+__________________daemon____________________
+Daemon is running.
+Daemon Step 1 complete.
+Daemon Step 2 complete.
+Daemon Step 3 complete.
+Daemon Step 4 complete.
+ERROR. All file descriptors not closed.
+Daemon Step 5 complete.
+___________________________________________
+__________________collect_reports____________________
+All contents of shareDirectory moved to dashboardDirectory.
+___________________________________________
+
+__________________backup_dashboard____________________
+SUCCESS. All contents of dashboardDirectory copied to backupDirectory.
+___________________________________________
+
+__________________lock_directories____________________
+SUCCESS. shareDirectory locked.
+SUCCESS. dashboardDirectory locked.
+SUCCESS. backupDirectory locked.
+__________________lock_directories____________________
+___________________________________________
+
+__________________unlock_directories____________________
+SUCCESS. shareDirectory unlocked.
+SUCCESS. dashboardDirectory unlocked.
+SUCCESS. backupDirectory unlocked.
+__________________unlock_directories____________________
+___________________________________________
+
+__________________generate_reports____________________
+SUCCESS. Warehouse Report created successfully
+___________________________________________
+__________________check_file_uploads____________________
+SUCCESS. Warehouse report is present.
+ERROR. The following reports are missing:
+- Sales
+- Manufacturing
+- Distribution
+___________________________________________
+
